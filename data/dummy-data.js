@@ -1,5 +1,5 @@
-import Category from '../models/category';
-import Meal from '../models/meal';
+import Category from '../models/category'
+import Meal from '../models/meal'
 
 export const CATEGORIES = [
   new Category('c1', 'Italian', '#f5428d'),
@@ -12,7 +12,7 @@ export const CATEGORIES = [
   new Category('c8', 'Asian', '#b9ffb0'),
   new Category('c9', 'French', '#ffc7ff'),
   new Category('c10', 'Summer', '#47fced')
-];
+]
 
 export const MEALS = [
   new Meal(
@@ -334,4 +334,4 @@ export const MEALS = [
     true,
     true
   )
-];
+]
