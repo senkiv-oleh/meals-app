@@ -1,6 +1,6 @@
 import { useLayoutEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { View, Text, Image, StyleSheet, ScrollView, Button } from 'react-native'
+import { View, Text, Image, StyleSheet, ScrollView } from 'react-native'
 
 import MealDetails from '../components/MealDetails'
 import Subtitle from '../components/MealDetail/Subtitle'
