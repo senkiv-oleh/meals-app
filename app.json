@@ -3,11 +3,13 @@
     "name": "meals-app",
     "slug": "meals-app",
     "version": "1.0.0",
+    "owner": "oleh-senkiv",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "backgroundColor": "#24180f",
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/b383fe7b-f6d6-4eae-a234-0fe2a1a816c4"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,6 +25,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b383fe7b-f6d6-4eae-a234-0fe2a1a816c4"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
